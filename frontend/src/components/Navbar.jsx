@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="navbar-inner">
         <Link to="/" className="brand">
           <span className="brand-mark">🌱</span>
-          <span className="brand-text">AgriChain</span>
+          <span className="brand-text">Web-Based Supply Chain Platform</span>
         </Link>
 
         <nav className="nav-links">

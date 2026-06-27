@@ -62,7 +62,8 @@ h1, h2, h3 { line-height: 1.2; }
 }
 .brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.2rem; color: var(--green-900); }
 .brand:hover { text-decoration: none; }
-.brand-mark { font-size: 1.4rem; }
+.brand-mark { font-size: 1.4rem; flex-shrink: 0; }
+.brand-text { font-size: 0.98rem; line-height: 1.1; max-width: 200px; }
 .nav-links { display: flex; gap: 20px; flex: 1; }
 .nav-links a { color: var(--ink); font-weight: 500; }
 .nav-links a.active { color: var(--green-700); font-weight: 700; }

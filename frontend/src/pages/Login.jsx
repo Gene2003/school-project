@@ -32,7 +32,7 @@ export default function Login() {
     <div className="auth-wrap">
       <form className="auth-card" onSubmit={handleSubmit}>
         <h1>Welcome back</h1>
-        <p className="muted">Log in to your AgriChain account.</p>
+        <p className="muted">Log in to your account.</p>
         {error && <div className="alert alert-error">{error}</div>}
 
         <label>Email

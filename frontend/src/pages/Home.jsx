@@ -22,7 +22,7 @@ export default function Home() {
           <span className="pill">Kenya · Agricultural Supply Chain</span>
           <h1>One platform connecting the entire farm-to-table supply chain.</h1>
           <p>
-            AgriChain links farmers, wholesalers, retailers and consumers in a single
+            The Web-Based Supply Chain Platform links farmers, wholesalers, retailers and consumers in a single
             digital marketplace — with secure payments, automated commission tracking
             and real-time SMS & email notifications.
           </p>
@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <h2 className="section-title">Why AgriChain?</h2>
+        <h2 className="section-title">Why this platform?</h2>
         <div className="feature-grid">
           {FEATURES.map((f) => (
             <div className="feature-card" key={f.title}>

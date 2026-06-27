@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div>
-          <strong>AgriChain</strong> — Web-Based Supply Chain Platform
+          <strong>Web-Based Supply Chain Platform</strong>
           <p className="muted">
             Connecting farmers, wholesalers, retailers and consumers across Kenya.
           </p>

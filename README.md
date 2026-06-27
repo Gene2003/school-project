@@ -1,4 +1,4 @@
-# Web-Based Supply Chain Platform (AgriChain)
+# Web-Based Supply Chain Platform
 
 A web-based agricultural supply chain platform that connects **farmers,
 wholesalers, retailers and consumers** in a single marketplace — with secure

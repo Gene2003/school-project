@@ -161,9 +161,9 @@ CORS_ALLOW_CREDENTIALS = True
 # Third-party service configuration (graceful no-op when keys are absent)
 # ---------------------------------------------------------------------------
 
-# Paystack (payments & split payments)
-PAYSTACK_SECRET_KEY = os.getenv('sk_test_552ada5cbd1a49a34db6637077060be31cb8bd47', '')
-PAYSTACK_PUBLIC_KEY = os.getenv('pk_test_35c6e38440ab7ecae3cdea105b14b3a8de01cb34', '')
+# Paystack (payments & split payments). Keys are read from .env (never commit them).
+PAYSTACK_SECRET_KEY = os.getenv('PAYSTACK_SECRET_KEY', '')
+PAYSTACK_PUBLIC_KEY = os.getenv('PAYSTACK_PUBLIC_KEY', '')
 # Platform commission percentage taken from each transaction
 PLATFORM_COMMISSION_PERCENT = float(os.getenv('PLATFORM_COMMISSION_PERCENT', '5'))
 # Referral commission percentage awarded to community promoters

@@ -121,7 +121,7 @@ def send_order_confirmation(order):
         f'Items: {items}\n'
         f'Reference: {order.reference}\n\n'
         f'Thank you for buying directly from local farmers.\n'
-        f'— Agric Supply Chain Platform'
+        f'— Web-Based Supply Chain Platform'
     )
 
     send_email(order.email, subject, body, recipient=order.buyer)
